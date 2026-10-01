@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <link rel="stylesheet" href="Selectorstye.css">
+    <style>
+        * {
+            text-shadow: 2px 2px gold;
+        }
+
+        h1,h2{
+            text-transform: uppercase;
+        }
+
+        p {
+            text-shadow: none;
+            text-decoration: underline 2px solid green;
+        }
+
+        .classstyle {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: line-through;
+        }
+
+        #idstyle {
+            text-decoration: underline 2px double palegreen;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selector</h1>
+    <h2> Example</h2>
+    <p>This paragraph is styled using an element selector.</p>
+    <p class="classstyle">This paragraph is styled using a class selector.</p>
+    <p class="classstyle">This paragraph is also styled using a class selector.</p>
+    <p id="idstyle">This paragraph is styled using an ID selector.</p>
+</body>
+
+</html>
