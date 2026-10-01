@@ -1,0 +1,13 @@
+.navbar {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbar h2 {
+    text-decoration: underline 2px solid grey;
+}
+
+.links a {
+    color: purple;
+    text-shadow: 2px 2px 2px goldenrod;
+}
